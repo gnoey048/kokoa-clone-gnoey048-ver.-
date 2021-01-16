@@ -1,0 +1,9 @@
+@import "status-bar.css";
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  height: 200vh;
+}
