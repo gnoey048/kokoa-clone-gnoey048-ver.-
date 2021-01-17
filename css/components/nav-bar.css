@@ -1,0 +1,12 @@
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(173, 216, 230, 0.438);
+  padding: 17px 30px;
+}
+.nav__btn .fa-user {
+  color: rgb(27, 73, 212);
+}
