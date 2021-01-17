@@ -1,15 +1,19 @@
 .screen-header {
   display: flex;
-  padding: 50px 20px;
+  margin: 35px 10px 0px 10px;
+  padding: 15px 13px;
   justify-content: space-between;
   align-items: center;
+  background-color: rgba(135, 206, 250, 0.781);
+  border-radius: 7px;
+  color: white;
 }
 .screen-header__icons {
   display: flex;
 }
 .screen-header__title {
   font-weight: 600;
-  font-size: 28px;
+  font-size: 25px;
 }
 .screen-header__icons i {
   margin-left: 20px;
