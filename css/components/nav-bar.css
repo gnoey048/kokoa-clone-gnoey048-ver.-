@@ -8,11 +8,11 @@
   padding: 17px 30px;
   border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
-.nav__a i {
+.nav__btn__not-selected {
   color: white;
 }
-.nav__btn .fa-user {
-  color: var(--nav__color-selected);
+.nav__btn__selected {
+  color: royalblue;
 }
 .nav_notification {
   font-size: 15px;

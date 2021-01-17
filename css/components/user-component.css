@@ -1,0 +1,38 @@
+.user-component {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-component__column {
+  display: flex;
+}
+.user-component__profile-pic {
+  width: 60px;
+  height: 60px;
+  border-radius: 22px;
+  margin-right: 12px;
+}
+.user-component__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.user-component__name {
+  font-size: 20px;
+  font-weight: 600;
+}
+.user-component__profile-pic--sm {
+  width: 50px;
+  height: 50px;
+  border-radius: 18px;
+}
+.user-component__name--not-bold {
+  font-weight: 400;
+  font-size: 17px;
+}
+.user-component__subtitle {
+  font-size: 14px;
+  opacity: 0.5;
+}

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends</title>
+    <title>Chats</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
@@ -29,56 +29,16 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">Chats</h1>
       <div class="screen-header__icons">
         <div><i class="fas fa-search fa-lg"></i></div>
-        <div><i class="fas fa-user-plus fa-lg"></i></div>
+        <div><i class="far fa-comment-dots fa-lg"></i></div>
         <div><i class="fas fa-music fa-lg"></i></div>
         <div><i class="fas fa-cog fa-lg"></i></div>
       </div>
     </header>
 
     <main class="main-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img src="img/nebula.jpg" class="user-component__profile-pic" />
-          <div class="user-component__text">
-            <h3 class="user-component__name">gnoey</h3>
-            <h6 class="user-component__subtitle"></h6>
-          </div>
-        </div>
-      </div>
-
-      <div class="section-title-bar">
-        <span>Channel</span>
-        <i class="fas fa-chevron-up fa-sm"></i>
-      </div>
-
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="img/channel.png"
-            class="user-component__profile-pic user-component__profile-pic--sm"
-          />
-          <div class="user-component__text">
-            <h3 class="user-component__name user-component__name--not-bold">
-              Channel
-            </h3>
-          </div>
-        </div>
-        <div class="user-component__column">
-          <div class="channel-count">
-            <span>2</span>
-            <span><i class="fas fa-chevron-right fa-xs"></i></span>
-          </div>
-        </div>
-      </div>
-
-      <div class="section-title-bar">
-        <span>Friends</span>
-        <i class="fas fa-chevron-up fa-sm"></i>
-      </div>
-
       <div class="user-component">
         <div class="user-component__column">
           <img
@@ -90,14 +50,6 @@
               김 O O
             </h3>
             <h6 class="user-component__subtitle">This is subtitle.</h6>
-          </div>
-        </div>
-        <div class="user-component__column">
-          <div class="music-badge">
-            <span class="music-badge__song">Who(feat.BTS)-Lauv</span>
-            <span class="music-badge__play-icon"
-              ><i class="fas fa-play fa-xs"></i
-            ></span>
           </div>
         </div>
       </div>
@@ -144,14 +96,7 @@
             <h6 class="user-component__subtitle">This is subtitle.</h6>
           </div>
         </div>
-        <div class="user-component__column">
-          <div class="music-badge">
-            <span class="music-badge__song">화(火花)-(여자)아이들</span>
-            <span class="music-badge__play-icon"
-              ><i class="fas fa-play fa-xs"></i
-            ></span>
-          </div>
-        </div>
+        <div class="user-component__column"></div>
       </div>
 
       <div class="user-component">
@@ -202,12 +147,12 @@
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__a" href="friends.html">
-            <i class="fas fa-user fa-2x nav__btn__selected"> </i>
+            <i class="far fa-user fa-2x nav__btn__not-selected"> </i>
           </a>
         </li>
         <li class="nav__btn">
           <a class="nav__a" href="chats.html">
-            <i class="far fa-comment fa-2x nav__btn__not-selected">
+            <i class="fas fa-comment fa-2x nav__btn__selected">
               <span class="nav_notification badge-big">5</span>
             </i>
           </a>

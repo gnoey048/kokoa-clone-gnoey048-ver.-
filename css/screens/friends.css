@@ -1,0 +1,19 @@
+.channel-count {
+  opacity: 0.3;
+}
+.channel-count span {
+  font-size: 14px;
+}
+.music-badge {
+  border: 1px solid var(--nav__color-selected);
+  padding: 5px 9px;
+  border-radius: 20px;
+}
+.music-badge__song {
+  font-size: 12px;
+  color: cadetblue;
+}
+.music-badge__play-icon {
+  margin-left: 3px;
+  color: var(--nav__color-selected);
+}
