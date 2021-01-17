@@ -1,0 +1,29 @@
+.find__icon-box {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 20px 0px;
+}
+.find__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  opacity: 0.7;
+}
+.find__icon i {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.find__icon span {
+  font-size: 15px;
+}
+.recommended-friends__text {
+  text-align: center;
+  opacity: 0.3;
+  margin: 90px 0px;
+}
+.go-to-openchat span {
+  font-size: 13px;
+  opacity: 0.3;
+}

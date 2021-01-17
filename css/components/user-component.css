@@ -10,7 +10,7 @@
 .user-component__profile-pic {
   width: 60px;
   height: 60px;
-  border-radius: 22px;
+  border-radius: 25px;
   margin-right: 12px;
 }
 .user-component__text {
@@ -26,13 +26,28 @@
 .user-component__profile-pic--sm {
   width: 50px;
   height: 50px;
-  border-radius: 18px;
+  border-radius: 20px;
+}
+.user-component__profile-pic--normal {
+  width: 55px;
+  height: 55px;
+  border-radius: 22px;
 }
 .user-component__name--not-bold {
   font-weight: 400;
   font-size: 17px;
 }
 .user-component__subtitle {
+  font-size: 14px;
+  opacity: 0.5;
+}
+.user-component__column--chat-time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.user-component__column--chat-time span {
+  margin-bottom: 7px;
   font-size: 14px;
   opacity: 0.5;
 }

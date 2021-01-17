@@ -7,6 +7,7 @@
 
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/find.css";
 
 @import "reset.css";
 @import "variables.css";
@@ -20,4 +21,7 @@ body {
 }
 .main-screen {
   padding: 0px 20px;
+}
+.body-color {
+  background-color: rgba(176, 224, 230, 0.377);
 }
