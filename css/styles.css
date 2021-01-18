@@ -5,6 +5,7 @@
 @import "components/user-component.css";
 @import "components/section-title-bar.css";
 @import "components/alt-screen-header.css";
+@import "components/no-wide-screen.css";
 
 @import "screens/login.css";
 @import "screens/friends.css";

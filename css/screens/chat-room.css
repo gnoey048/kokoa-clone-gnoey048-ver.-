@@ -1,6 +1,6 @@
 #chat-room__body {
   background-color: rgb(199, 232, 236);
-  height: 10000vh;
+  height: 500vh;
 }
 #chat-room__body .alt-screen-header,
 #chat-room__body .status-bar {
@@ -36,10 +36,21 @@
   text-align: center;
   margin-bottom: 30px;
 }
+@keyframes FadeInAni {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
 .message-row {
   width: 100%;
   display: flex;
   margin-bottom: 25px;
+  animation: FadeInAni 2s ease-in-out forwards;
 }
 .message-row img {
   width: 50px;
@@ -67,8 +78,20 @@
   font-size: 12px;
   color: rgba(0, 0, 0, 0.7);
 }
+
+@keyframes FadeInAni_2 {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
 .message-row--mine {
   justify-content: flex-end;
+  animation: FadeInAni_2 2s ease-in-out forwards;
 }
 .message-row--mine .message__bubble-content {
   background-color: royalblue;
@@ -102,6 +125,7 @@
   height: 30px;
   border-radius: 25px;
   border: 1px solid rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
 }
 .message__send-box > i {
   position: absolute;
@@ -127,4 +151,19 @@
 .message__send-box button:active {
   outline: none;
   background-color: darkblue;
+}
+
+.message-send-row:focus-within .add-file-icon {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.message-send-row:focus-within input {
+  width: 93vw;
+  transform: translateX(-40px) translateY(-20px);
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.message-send-row:focus-within .fa-laugh,
+.message-send-row:focus-within .message__send-box button {
+  transform: translateX(-30px) translateY(-20px);
 }

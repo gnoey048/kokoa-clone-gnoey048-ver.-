@@ -1,0 +1,20 @@
+#no-wide-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: steelblue;
+  font-size: 30px;
+  font-weight: bold;
+  color: aliceblue;
+  position: absolute;
+  top: 0;
+  z-index: 100;
+}
+
+@media screen and (max-width: 645px) {
+  #no-wide-screen {
+    display: none;
+  }
+}

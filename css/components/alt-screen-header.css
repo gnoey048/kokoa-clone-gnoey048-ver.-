@@ -1,10 +1,16 @@
 .alt-screen-header {
   display: flex;
-  margin: 25px 10px;
+  margin: 25px 0px;
   padding: 15px 13px;
   justify-content: space-between;
   align-items: center;
   border-radius: 7px;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 1;
+  background-color: white;
 }
 .alt-screen-header__title {
   font-weight: 600;
