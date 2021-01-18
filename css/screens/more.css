@@ -90,3 +90,6 @@
   border-radius: 5px;
   color: white;
 }
+.more__menu-icon__detail i:hover {
+  color: cadetblue;
+}
