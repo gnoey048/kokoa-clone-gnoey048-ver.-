@@ -17,3 +17,51 @@
   margin-left: 3px;
   color: var(--nav__color-selected);
 }
+
+@keyframes Splashscreen {
+  0% {
+    opacity: 1;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transform: translateX(-50px);
+  }
+  25% {
+    width: 100vw;
+    height: 100vh;
+    opacity: 1;
+    border-radius: 0%;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen {
+  background-color: royalblue;
+  color: white;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: Splashscreen 5s ease-in-out forwards;
+}
+#splash-screen i {
+  font-size: 132px;
+  margin-top: 40px;
+}
+#splash-screen span {
+  font-size: 40px;
+  font-weight: 600;
+}
