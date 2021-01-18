@@ -61,3 +61,7 @@
   left: 30px;
   animation: notification2Ani 2s ease-in-out infinite;
 }
+.nav__a:focus,
+.nav__a:active {
+  background-color: none;
+}
