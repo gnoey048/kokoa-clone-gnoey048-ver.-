@@ -1,8 +1,130 @@
 #chat-room__body {
   background-color: rgb(199, 232, 236);
+  height: 10000vh;
 }
-
+#chat-room__body .alt-screen-header,
+#chat-room__body .status-bar {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+}
 .chat-room__title {
   font-weight: 600;
   font-size: 23px;
+}
+#chat-room__body .status-bar {
+  z-index: 2;
+  background-color: white;
+}
+#chat-room__body .alt-screen-header {
+  background-color: rgb(199, 232, 236);
+  z-index: 1;
+}
+.main-chat {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-chat__time-info {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 8px 15px;
+  border-radius: 20px;
+  color: white;
+  font-size: 13px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.message-row {
+  width: 100%;
+  display: flex;
+  margin-bottom: 25px;
+}
+.message-row img {
+  width: 50px;
+  height: 50px;
+  border-radius: 18px;
+  margin-right: 10px;
+}
+.message__author {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 15px;
+  display: block;
+  margin-bottom: 10px;
+}
+.message__bubble {
+  display: flex;
+  align-items: flex-end;
+}
+.message__bubble-content {
+  background-color: white;
+  padding: 10px 10px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+.message__time {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.message-row--mine {
+  justify-content: flex-end;
+}
+.message-row--mine .message__bubble-content {
+  background-color: royalblue;
+  color: white;
+  margin-left: 5px;
+  margin-right: 0px;
+  border-top-right-radius: 0px;
+}
+.message-row--mine .message__bubble {
+  flex-direction: row-reverse;
+}
+
+.message-send-row {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 5px 15px;
+  box-sizing: border-box;
+}
+.message__send-box {
+  width: 100%;
+  margin-left: 15px;
+  position: relative;
+}
+.message__send-box input {
+  width: 100%;
+  height: 30px;
+  border-radius: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.message__send-box > i {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  right: 40px;
+  opacity: 0.6;
+}
+.message__send-box button {
+  border-radius: 50%;
+  position: absolute;
+  right: -4px;
+  top: 2px;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: royalblue;
+  color: white;
+}
+.add-file-icon {
+  opacity: 0.6;
+}
+.message__send-box button:focus,
+.message__send-box button:active {
+  outline: none;
+  background-color: darkblue;
 }

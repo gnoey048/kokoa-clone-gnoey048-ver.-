@@ -16,9 +16,6 @@
 @import "reset.css";
 @import "variables.css";
 
-* {
-  box-sizing: border-box;
-}
 body {
   font-family: "Poppins", sans-serif;
   height: 130vh;
@@ -27,5 +24,5 @@ body {
   padding: 0px 20px;
 }
 .body-color {
-  background-color: rgba(176, 224, 230, 0.377);
+  background-color: rgba(176, 224, 230, 0.295);
 }

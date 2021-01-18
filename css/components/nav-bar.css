@@ -4,7 +4,8 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: rgba(173, 216, 230, 0.747);
+  box-sizing: border-box;
+  background-color: lightblue;
   padding: 17px 30px;
   border-top: 1px solid rgba(0, 0, 0, 0.2);
 }

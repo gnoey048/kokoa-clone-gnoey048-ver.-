@@ -29,17 +29,50 @@
     </div>
 
     <header class="alt-screen-header">
-      <a class="nav__a" href="chats.html"
-        ><i class="fas fa-chevron-left fa-lg"></i
-      ></a>
-      <h1 class="chat-room__title">gnoey</h1>
-      <div class="alt-screen-header__icons">
+      <div class="alt-screen-header__column">
+        <a class="nav__a" href="chats.html"
+          ><i class="fas fa-chevron-left fa-lg"></i
+        ></a>
+      </div>
+      <div class="alt-screen-header__column">
+        <h1 class="chat-room__title">gnoey</h1>
+      </div>
+      <div class="alt-screen-header__column">
         <span> <i class="fas fa-search fa-lg"></i></span>
         <span> <i class="fas fa-bars fa-lg"></i></span>
       </div>
     </header>
 
-    <main class="main-screen"></main>
+    <main class="main-screen main-chat">
+      <div class="main-chat__time-info">Monday, January 18, 2021</div>
+      <div class="message-row">
+        <img src="img/nebula.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">gnoey</span>
+          <div class="message__bubble">
+            <span class="message__bubble-content">Hi!</span>
+            <span class="message__time">15:00</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--mine">
+        <div class="message-row__content">
+          <div class="message__bubble">
+            <span class="message__bubble-content">Hey, how's it going?</span>
+            <span class="message__time">15:10</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="message-send-row">
+      <div class="add-file-icon"><i class="far fa-plus-square fa-lg"></i></div>
+      <div class="message__send-box">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-laugh fa-lg"></i>
+        <button><i class="fas fa-arrow-up fa-lg"></i></button>
+      </div>
+    </form>
 
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
