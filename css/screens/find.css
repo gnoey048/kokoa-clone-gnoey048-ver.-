@@ -1,3 +1,11 @@
+.find__screen-header__icon {
+  position: relative;
+}
+.find__screen-header__icon-cog {
+  position: absolute;
+  bottom: 20px;
+  left: 40px;
+}
 .find__icon-box {
   display: flex;
   justify-content: space-between;
@@ -26,4 +34,70 @@
 .go-to-openchat span {
   font-size: 13px;
   opacity: 0.3;
+}
+.find__open-chat__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: var(--border-color);
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.find__open-chat__title {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+.open-chat__title {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+.open-chat__hashtag {
+  opacity: 0.5;
+  margin-bottom: 5px;
+}
+.find__open-chat__text-member {
+  display: flex;
+  align-items: center;
+}
+.open-chat__count {
+  font-size: 13px;
+  opacity: 0.5;
+}
+.open-chat__member-img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.divider {
+  width: 2px;
+  height: 15px;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 0px 5px;
+}
+.open-chat__status {
+  color: palevioletred;
+  font-size: 14px;
+}
+
+.open-chat__room-img img {
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+}
+.open-chat__room-img {
+  position: relative;
+}
+.open-chat__room-like {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 5px;
+  border-radius: 20px;
+  width: 50px;
+  text-align: center;
+  color: white;
+  font-size: 13px;
+  position: absolute;
+  bottom: 9px;
+  left: 35px;
 }
