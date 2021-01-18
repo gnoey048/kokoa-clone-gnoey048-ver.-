@@ -1,0 +1,40 @@
+.alt-user-component {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.02);
+}
+.user-component__column {
+  display: flex;
+}
+.user-component__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.alt-user-component__name {
+  font-size: 20px;
+}
+.user-component__column--chat-time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.setting__list-detail span {
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+.setting__list-icon {
+  font-size: 25px;
+  margin-right: 20px;
+}
+.setting__list-section {
+  padding-bottom: 35px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.setting__list-top-space {
+  padding-top: 35px;
+}

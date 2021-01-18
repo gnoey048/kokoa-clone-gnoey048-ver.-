@@ -4,11 +4,14 @@
 @import "components/screen-header.css";
 @import "components/user-component.css";
 @import "components/section-title-bar.css";
+@import "components/alt-screen-header.css";
 
 @import "screens/login.css";
 @import "screens/friends.css";
 @import "screens/find.css";
 @import "screens/more.css";
+@import "screens/setting.css";
+@import "screens/chat-room.css";
 
 @import "reset.css";
 @import "variables.css";
@@ -18,7 +21,7 @@
 }
 body {
   font-family: "Poppins", sans-serif;
-  height: 200vh;
+  height: 130vh;
 }
 .main-screen {
   padding: 0px 20px;

@@ -1,0 +1,8 @@
+#chat-room__body {
+  background-color: rgb(199, 232, 236);
+}
+
+.chat-room__title {
+  font-weight: 600;
+  font-size: 23px;
+}
