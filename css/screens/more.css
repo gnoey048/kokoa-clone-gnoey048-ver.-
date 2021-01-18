@@ -60,7 +60,7 @@
   color: slategray;
 }
 .more__ad-part {
-  width: 400px;
+  width: 90%;
   height: 200px;
   background-color: rgba(0, 0, 0, 0.1);
   border: 1px dashed rgba(0, 0, 0, 0.5);
