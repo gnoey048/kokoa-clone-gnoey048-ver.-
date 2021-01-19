@@ -21,19 +21,11 @@
 @keyframes Splashscreen {
   0% {
     opacity: 1;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    transform: translateX(-50px);
-  }
-  25% {
-    width: 100vw;
-    height: 100vh;
-    opacity: 1;
-    border-radius: 0%;
+    transform: translateX(100%);
   }
   50% {
     opacity: 1;
+    transform: translateX(0);
   }
   75% {
     opacity: 1;
@@ -55,7 +47,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  animation: Splashscreen 5s ease-in-out forwards;
+  animation: Splashscreen 2s ease-in-out forwards;
   z-index: 2;
 }
 #splash-screen i {
