@@ -50,3 +50,12 @@
   margin-top: 10px;
   font-size: 15px;
 }
+.login-form input[type="submit"]:hover {
+  background-color: cornflowerblue;
+  transform: translateY(-5px);
+  box-shadow: 5px 10px 15px rgb(69, 103, 165);
+}
+.login-form a:hover {
+  color: slateblue;
+  text-shadow: 3px 5px 5px slateblue;
+}
