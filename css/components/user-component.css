@@ -7,6 +7,7 @@
 }
 .user-component:hover {
   background-color: rgba(128, 128, 128, 0.164);
+  border-radius: 10px;
 }
 .user-component__column {
   display: flex;
