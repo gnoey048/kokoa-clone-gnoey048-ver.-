@@ -6,7 +6,7 @@
   width: 100%;
   box-sizing: border-box;
   background-color: lightblue;
-  padding: 17px 30px;
+  padding: 15px 30px;
   border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
 .nav__btn__not-selected {
