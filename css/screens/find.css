@@ -125,4 +125,5 @@
 }
 .find__open-chat__list:hover {
   background-color: rgba(112, 128, 144, 0.15);
+  border-radius: 10px;
 }
