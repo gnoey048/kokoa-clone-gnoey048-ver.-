@@ -59,6 +59,10 @@
   font-size: 13px;
   color: slategray;
 }
+.more__menu-icon__detail i:hover {
+  color: cadetblue;
+  transform: scale(1.3);
+}
 .more__ad-part {
   width: 90%;
   height: 200px;
@@ -89,7 +93,4 @@
   padding: 5px;
   border-radius: 5px;
   color: white;
-}
-.more__menu-icon__detail i:hover {
-  color: cadetblue;
 }
