@@ -8,7 +8,7 @@
 .welcome-header__title {
   font-size: 25px;
   font-weight: 500;
-  margin: 20px 0px 30px;
+  margin: 20px 0px 50px;
 }
 .welcome-header__text {
   width: 60%;
@@ -49,4 +49,14 @@
   text-align: center;
   margin-top: 10px;
   font-size: 15px;
+}
+.login-form input[type="submit"]:hover {
+  background-color: cornflowerblue;
+  transform: translateY(5px);
+  box-shadow: 5px 10px 10px rgb(64, 94, 151);
+}
+.login-form a:hover {
+  color: slateblue;
+  text-shadow: 2px 5px 5px slateblue;
+  transform: scale(1.1);
 }
