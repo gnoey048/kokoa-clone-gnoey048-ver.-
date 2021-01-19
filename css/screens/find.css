@@ -35,6 +35,10 @@
   font-size: 13px;
   opacity: 0.3;
 }
+.go-to-openchat:hover {
+  color: darkblue;
+  transform: scale(1.1);
+}
 .find__open-chat__list {
   display: flex;
   justify-content: space-between;
