@@ -1,8 +1,13 @@
 .user-component {
-  margin-top: 20px;
+  margin-top: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 7px 5px;
+}
+.user-component:hover {
+  background-color: rgba(128, 128, 128, 0.164);
+  border-radius: 10px;
 }
 .user-component__column {
   display: flex;

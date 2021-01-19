@@ -35,6 +35,10 @@
   font-size: 13px;
   opacity: 0.3;
 }
+.go-to-openchat:hover {
+  color: darkblue;
+  transform: scale(1.1);
+}
 .find__open-chat__list {
   display: flex;
   justify-content: space-between;
@@ -101,6 +105,25 @@
   bottom: 9px;
   left: 35px;
 }
-.find__icon i:hover {
-  color: darkblue;
+.open-chat__room-like i {
+  animation: heartbeatAni 1s linear infinite;
+  will-change: transform;
+}
+.find__icon:hover {
+  color: cadetblue;
+  transform: scale(1.2);
+}
+@keyframes heartbeatAni {
+  from {
+    transform: scale(1);
+    color: white;
+  }
+  to {
+    transform: scale(1.2);
+    color: palevioletred;
+  }
+}
+.find__open-chat__list:hover {
+  background-color: rgba(112, 128, 144, 0.15);
+  border-radius: 10px;
 }
