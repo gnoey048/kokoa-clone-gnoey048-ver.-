@@ -17,6 +17,7 @@
   flex-direction: column;
   justify-content: center;
   justify-content: space-evenly;
+  color: dimgrey;
 }
 .alt-user-component__name {
   font-size: 20px;
@@ -34,10 +35,34 @@
 .setting__list-icon {
   font-size: 25px;
   margin-right: 20px;
+  color: steelblue;
 }
 .setting__list-section {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 .setting__list-top-space {
   margin-top: 35px;
+}
+
+@keyframes SettingIconAni {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(6deg);
+  }
+  75% {
+    transform: rotateZ(-6deg);
+  }
+  100% {
+    transform: rotateZ(6deg);
+  }
+}
+.alt-user-component:hover .setting__list-icon {
+  animation: SettingIconAni 0.5s linear infinite;
+  will-change: transform;
+}
+.alt-user-component:hover .alt-user-component__name {
+  transform: scale(1.1);
+  color: mediumblue;
 }
