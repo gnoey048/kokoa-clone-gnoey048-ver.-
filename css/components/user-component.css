@@ -5,7 +5,8 @@
   align-items: center;
   padding: 7px 5px;
 }
-.user-component:hover {
+.user-component:hover,
+.user-component:active {
   background-color: rgba(128, 128, 128, 0.164);
   border-radius: 10px;
 }
